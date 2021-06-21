@@ -1,25 +1,47 @@
-# Device Recovery Tree for Xiaomi Redmi Note 4 & 4x (Mido)
+# Device Tree for 10or G (codenamed _"holland2"_)
 
-Kernel source: "https://github.com/zeelog/android_kernel_xiaomi_mido.git"
-
-## Spec Sheet
+==================================
+## Device specifications
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 2.0 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8953 Snapdragon 625   |
+| CPU                     | Octa-core 2.2 GHz Cortex-A53      |
+| Chipset                 | Qualcomm MSM8953 Snapdragon 626   |
 | GPU                     | Adreno 506                        |
-| Memory                  | 2/3/4 GB                          |
-| Shipped Android Version | 6.0.1                             |
-| Storage                 | 16/32/64 GB                          |
+| Memory                  | 3/4 GB                            |
+| Shipped Android Version | 7.1.2                             |
+| Storage                 | 32/64 GB                          |
 | MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4100 mAh (non-removable)          |
-| Dimensions              | 151 x 76 x 8.5 mm                 |
+| Battery                 | 4000 mAh (non-removable)          |
 | Display                 | 1920x1080 pixels, 5.5 (~401 PPI)  |
 | Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
-| Release Date            | January 2017                      |
+| Front Camera            | 16 MP                             |
+| Release Date            | October 2017                      |
+
 
 ## Device Picture
 
-![Redmi Note 4](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "Redmi Note 4")
+![10or G](https://www.seekpng.com/png/full/257-2578345_you-know-what-you-want-in-a-phone.png "10or G")
+
+### Copyright
+ ```
+  /*
+  *  Copyright (C) 2013-2020 The TWRP
+  *
+  *  Copyright (C) 2018-2020 The OrangeFox Recovery Project
+  *
+  * This program is free software: you can redistribute it and/or modify
+  * it under the terms of the GNU General Public License as published by
+  * the Free Software Foundation, either version 3 of the License, or
+  * (at your option) any later version.
+  *
+  * This program is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  * GNU General Public License for more details.
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  *
+  */
+  ```

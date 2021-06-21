@@ -14,20 +14,20 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/mido
+LOCAL_PATH := device/10or/G
 
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
-TARGET_CPU_VARIANT := generic
+TARGET_CPU_VARIANT := cortex-a53
 
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := armv8-a
+TARGET_2ND_CPU_VARIANT := cortex-a53
 
 TARGET_BOARD_PLATFORM := msm8953
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
@@ -88,13 +88,10 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TWRP_INCLUDE_LOGCAT := true
 TW_EXTRA_LANGUAGES := true
 ALLOW_MISSING_DEPENDENCIES := true
-#TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor cust
+TW_CRYPTO_SYSTEM_VOLD_MOUNT := system vendor
 TW_FORCE_USE_BUSYBOX := true
 #AB_OTA_UPDATER := false
 TARGET_USES_LOGD := true
-PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
-PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_DISABLE_DEFAULT_TREBLE_COMP := true
 
 # Treble
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
@@ -105,7 +102,3 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
-
-#OFFICIAL
-#PB_OFFICIAL := true
-
